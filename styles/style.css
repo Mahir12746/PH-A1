@@ -66,3 +66,40 @@
     height: 240px;
 }
 
+.main-title-one {
+    text-align: center;
+    font-size: 24px;
+}
+
+.about {
+    background-color: #EBF2FF;
+    margin: 74px 152px 90px 148px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+}
+
+.about-para {
+    margin: 0px 97px 0px 97px;
+}
+
+.about-card {
+    background-color: white;
+    display: flex;
+    margin: 0px 97px 32px 97px;
+    padding: 48px 48px 48px 48px;
+    border-radius: 16px;
+}
+
+.about-inside-card {
+    padding: 0px 200px 20px 10px;
+}
+
+.about-btn {
+    width: 171px;
+    height: 47px;
+    background-color: white;
+    border-width: 1px;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
