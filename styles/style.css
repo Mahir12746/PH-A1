@@ -77,6 +77,9 @@
     padding-top: 40px;
     padding-bottom: 30px;
     border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .about-para {
@@ -103,3 +106,25 @@
     font-size: 20px;
     margin: 20px 0px 20px 0px;
 }
+
+.inspiration{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inspiration-card{
+
+    padding: 48px 48px 48px 48px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    padding: 32px 32px 32px 32px;
+}
+
+video {
+    border-radius: 16px;
+
+}
+
+
