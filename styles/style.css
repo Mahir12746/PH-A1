@@ -160,6 +160,11 @@ video {
 
 .target-btn {
     margin-top: 24px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    text-decoration: underline;
+    
 }
 
 .target-title {
