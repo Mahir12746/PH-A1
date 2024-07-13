@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -117,7 +120,7 @@
 .inspiration-card{
 
     padding: 48px 48px 48px 48px;
-    border: 1px solid grey;
+    border: 1px solid #E7E7E9;
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
     margin-bottom: 120px;
@@ -161,5 +164,70 @@ video {
 
 .target-title {
     margin-top: 24px;
+    align-items: center;
 }
 
+.support-section {
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    height: 313px;
+    margin: 49px auto 0;
+}
+
+.support-sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-two {
+    color: white;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.target-support {
+    color: #8A7F79;
+    margin-top: 0px;
+}
+
+.submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-submit {
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 16px;
+    padding-left: 20px;
+}
+
+.button-submit {
+    height: 57px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer-div {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 18px 150px 2px 150px;
+    border-radius: 16px;
+}
+
+.icon-div {
+    display: flex;
+    gap: 24px;
+}
