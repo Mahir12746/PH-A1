@@ -72,7 +72,7 @@
 }
 
 .about {
-    background-color: #EBF2FF;
+    background-color: #FAFAFB;
     margin: 74px 152px 90px 148px;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -120,6 +120,7 @@
     border: 1px solid grey;
     border-radius: 16px;
     padding: 32px 32px 32px 32px;
+    margin-bottom: 120px;
 }
 
 video {
@@ -127,4 +128,38 @@ video {
 
 }
 
+.target-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.target-card {
+    border-radius: 16px;
+    height: 200px;
+    width: 300px;
+    padding: 40px 40px 40px 40px;
+}
+
+.red {
+    background-color: #FFF6F4;
+}
+.blue {
+    background-color: #F2F6FE;
+}
+.yellow {
+    background-color: #FFFDF2;
+}
+
+.target-para {
+    font-size: small;
+}
+
+.target-btn {
+    margin-top: 24px;
+}
+
+.target-title {
+    margin-top: 24px;
+}
 
